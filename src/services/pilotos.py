@@ -1,5 +1,4 @@
 from src.models.pilotos import Piloto
-import uuid
 
 
 class ServicoPilotos:
