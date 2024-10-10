@@ -49,9 +49,12 @@ print(sp.get_piloto_id(5))
 aerovia1 = ["229292", "GRU", "MAD", "4000"]
 aerovia2 = ["229293", "GRU", "MAU", "40"]
 aerovia3 = ["229291", "GRU", "POA", "900"]
+
 sa.new_aerovia(aerovia1)
 sa.new_aerovia(aerovia2)
 sa.new_aerovia(aerovia3)
+
+
 print(sa.show_aerovias())
 print(sa.get_aerovias_id(1))
 print(sa.get_aerovias_id(0))

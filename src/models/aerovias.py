@@ -42,3 +42,7 @@ class Aerovias:
 
     def __str__(self) -> str:
         return f"O identificador é {self.identificador},\n o aeroporto de origem é {self.aeroporto_origem},\n o aeroporto de destino é{self.aeroporto_destino}\n o tamanho da aerovia é {self.tamanho_aerovia}"
+
+
+
+
